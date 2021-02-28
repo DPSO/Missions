@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=3061;
+		nextID=3065;
 	};
 	class LayerIndexProvider
 	{
-		nextID=111;
+		nextID=119;
 	};
 	class Camera
 	{
-		pos[]={4834.3794,151.99489,4929.0669};
-		dir[]={-0.13588269,-0.54738289,0.82579929};
-		up[]={-0.08887627,0.83687538,0.54012984};
-		aside[]={0.98675036,1.4106286e-007,0.16236462};
+		pos[]={490.38266,31.701477,4537.8652};
+		dir[]={-0.083458811,-0.34997189,-0.93311101};
+		up[]={-0.031177325,0.93673897,-0.34859347};
+		aside[]={-0.99609017,-1.1617158e-007,0.089090966};
 	};
 };
 binarizationWanted=0;
@@ -51,7 +51,8 @@ addons[]=
 	"ace_repair",
 	"CFP_B_USRANGERS_WDL",
 	"A3_Structures_F_Mil_Cargo",
-	"DPSO_Modules"
+	"DPSO_Modules",
+	"A3_Structures_F_Civ_Lamps"
 };
 class AddonsMetaData
 {
@@ -554,6 +555,157 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
+			property="ENH_establisingShot";
+			expression="if (!is3DEN && {!((_value # 0) isEqualTo [0,0,0]) && {hasInterface}}) then {_value spawn BIS_fnc_establishingShot}";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=6;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=3;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=525.70001;
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=4532.9302;
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+							};
+						};
+						class Item1
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Operation Black Scorpion";
+							};
+						};
+						class Item2
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=500;
+							};
+						};
+						class Item3
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=200;
+							};
+						};
+						class Item4
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=60;
+							};
+						};
+						class Item5
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+				};
+			};
+		};
+		class Attribute3
+		{
 			property="ENH_dynamicGroups";
 			expression="		if (!is3DEN && {isServer && {_value && {!(allCurators isEqualTo [])}}}) then		{			[] spawn			{				while {true} do				{					{						 _x addCuratorEditableObjects						 [						 	entities [[],['Logic'],true],						  	true						 ];					} count allCurators;					sleep 60;				};			};		}";
 			class Value
@@ -571,7 +723,7 @@ class CustomAttributes
 				};
 			};
 		};
-		nAttributes=3;
+		nAttributes=4;
 	};
 };
 class Mission
@@ -601,7 +753,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=26;
+		items=30;
 		class Item0
 		{
 			dataType="Logic";
@@ -4034,7 +4186,6 @@ class Mission
 				};
 			};
 			id=2971;
-			atlOffset=-0.077226639;
 		};
 		class Item18
 		{
@@ -4529,7 +4680,6 @@ class Mission
 				};
 			};
 			id=2985;
-			atlOffset=56.940193;
 		};
 		class Item19
 		{
@@ -4707,7 +4857,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={531.4447,3.8919284,4272.6787};
-						angles[]={-0,1.5483838,0};
+						angles[]={0,1.5483838,0};
 					};
 					side="Empty";
 					flags=4;
@@ -5231,7 +5381,6 @@ class Mission
 				};
 			};
 			id=3002;
-			atlOffset=37.037857;
 		};
 		class Item22
 		{
@@ -6279,6 +6428,66 @@ class Mission
 				};
 			};
 			id=3060;
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={464.88461,32.189053,4505.8184};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3061;
+			type="Land_LampAirport_F";
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={514.73822,32.189053,4505.7813};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3062;
+			type="Land_LampAirport_F";
+		};
+		class Item28
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={572.95728,32.189053,4505.5571};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3063;
+			type="Land_LampAirport_F";
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={606.05481,32.183136,4506.3105};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3064;
+			type="Land_LampAirport_F";
 		};
 	};
 	class Connections
