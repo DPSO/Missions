@@ -25,13 +25,13 @@ class EditorData
 	class Camera
 	{
 		pos[]={680.70886,195.12285,978.6756};
-		dir[]={0.5163098,-0.60076314,0.61036783};
-		up[]={0.38800055,0.79941237,0.45868483};
-		aside[]={0.76349783,-2.0768493e-007,-0.64584088};
+		dir[]={0.15623896,-0.64991593,0.74380374};
+		up[]={0.13360454,0.75999033,0.63605124};
+		aside[]={0.9786644,-2.7674469e-007,-0.20557186};
 	};
 };
 binarizationWanted=0;
-sourceName="Operation_Bananebieger_Alive";
+sourceName="Operation_Bananebieger_Alive_LESS";
 addons[]=
 {
 	"A3_Structures_F_Walls",
