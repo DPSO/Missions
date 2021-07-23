@@ -1,0 +1,68 @@
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//---------------------DESCRIPTION.EXT----------------------------------------//
+////////////////////////////////////////////////////////////////////////////////
+class Header
+{
+	// Available gameTypes:
+	// Coop:	|	Coop Mission: The Bread and Butter of CA missions
+	// DM		|	Death Match
+	// TDM		|	Team Death Match
+	// CTF		|	Capture The Flag (or, nuke)
+	// SC		|	Sector Control (Think insurgency - the red/green squares)
+	// RPG		|	Skyrim
+	// Sandbox	|	Free Game type, think Shady Swindle
+	// Seize	|	Seize a location
+	// Defend	|	Defend a location
+	gameType = Sandbox;
+	minPlayers = 1;
+	maxPlayers = 64;
+};
+
+////////////////////////////////////////////////////////////////////////////////
+//---------------------INCLUDES-----------------------------------------------//
+////////////////////////////////////////////////////////////////////////////////
+
+cba_settings_hasSettingsFile = 1; // load cba settings from cba_settings.sqf
+
+
+////////////////////////////////////////////////////////////////////////////////
+//---------------------MISSION INFO-------------------------------------------//
+////////////////////////////////////////////////////////////////////////////////
+loadscreen = "armamission.paa";
+onLoadName = "Training Mission";
+onLoadMission = "a mission for DPSO, useing RHS ACE3, and ALIVE";
+author = "*** YonV. ***";
+
+
+////////////////////////////////////////////////////////////////////////////////
+//---------------------MISSION SETTINGS---------------------------------------//
+////////////////////////////////////////////////////////////////////////////////
+
+enableDebugConsole = 1;			//0 für OFF, 1 für Admin only, 2 für alle.
+//enableDebugConsole[] = {"76561197985568467"};
+aikills = 0;					//show ai kills in score table
+disabledAI = 1;					//disable AI for all playable units
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+//---------------------PARAMS SETTINGS----------------------------------------//
+////////////////////////////////////////////////////////////////////////////////
+
+class Params
+{
+        // paramsArray[0]
+       class initialWeatherParam {
+          title = "Starting Weather";
+          values[] = {0,1,2,3,4};
+          texts[] = {"Clear","Overcast","Rain","Fog","Random"};
+          default = (random 4);
+       };
+       class TimeOfDay {
+         title = "Time of Day";
+         values[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23};
+         texts[] = {"0000","0100","0200","0300","0400","0500","0600","0700","0800","0900","1000","1100","1200","1300","1400","1500","1600","1700","1800","1900","2000","2100","2200","2300"};
+         default = (random 20);
+       };
+ };

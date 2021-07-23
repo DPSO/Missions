@@ -1,0 +1,1 @@
+execVM "Scripts\PrykUav.sqf";

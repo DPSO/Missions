@@ -1,0 +1,2 @@
+// --- Mission Info --- //
+cba_settings_hasSettingsFile = 1; // load cba settings from cba_settings.sqf

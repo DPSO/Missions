@@ -1,0 +1,69 @@
+Name your units according to this scheme to have custom loadouts. If not specified otherwise, add opf_ or ind_ in front of the unit name to have side specific loadouts for OPFOR and INDFOR units.
+Append a _recon to the units to configure them as recon units (with silencers, ace_medical_medicClass == 1 and some other boni for example).
+
+AA-Specialist: 			AA_X
+asst. AA-Specialist:	assAA_X
+MMG-Gunner:				AR_X
+asst. MMG-Gunner:		assAR_X
+AT-Specialist:			AT_X
+asst. AT-Spec.:			assAT_X
+Platoon Leader:			command_X
+Squad Leader:			leader_X
+Team Leader:			ft_X / ftLeader_X
+Medic:					medic_X
+Combat Life Saver:		cls_X
+LMG-Gunner:				lmg_X
+Grenadier:				gren_X
+Marksman:				marksman_X
+Rifleman:				soldier_X
+Rifleman (AT):			soldierAT_X
+Pionier:				spec_X
+UAV-Operator:			uavOp_X
+Logistic:				log_X
+Driver:					driver_X
+Pilot:					pilot_X
+Jet-Pilot:				jetPilot_X
+Sniper:					sniper_X
+Spotter:				spotter_X
+Diver:					diver_X
+Diver (Medic):			diver_medic_X
+Diver (Pionier):		diver_spec_X
+
+//Crew Served Weapons:
+	Mortar Gunner:			mortar_X
+	asst. Mortar Gunner:	assMortar_X
+	HMG Gunner:				CSW_X
+	asst. HMG Gunner:		assCSW_X
+	TOW Gunner:				TOW_X
+	asst. TOW Gunner:		assTOW_X
+	//indfor:
+	asst. Mortar Gunner:	ind_aMortar_X
+	asst. HMG Gunner:		ind_aCSW_X
+	asst. TOW Gunner:		ind_aTOW_X
+	//opfor:
+	asst. Mortar Gunner:	opf_aMortar_X
+	asst. HMG Gunner:		opf_aCSW_X
+	asst. TOW Gunner:		opf_aTOW_X
+	
+//command group units (with ind_/opf_ prefix respectively):
+	leader_command, leader_command_X
+	log_command, log_command_X
+	medic_command, medic_command_X
+	ftLeader_command, ftLeader_command_X
+
+//special leader units:
+
+//these are squad leaders with slightly changed loadouts to accommodate their group (either logistics or medics):
+	leader_medic, leader_medic_X
+	leader_log, leader_log_X
+//these are medics/logistic specialists with slightly changed loadouts to accommodate their leading role:
+	medic_leader, medic_leader_X
+	log_leader, log_leader_X
+	
+//civilian loadouts:
+Regular civilian:		civ_X
+Diver:					civ_Diver_X
+Pilot:					civ_Pilot_X
+Doctor:					civ_Doctor_X
+Policeman:				civ_Police_X
+Journalist:				civ_Press_X

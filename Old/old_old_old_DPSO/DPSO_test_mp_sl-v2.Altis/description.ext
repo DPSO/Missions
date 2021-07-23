@@ -1,0 +1,8 @@
+#include "VCOMAI\defines.hpp"
+#include "VCOMAI\DialogDefines.hpp"
+#include "VCOMAI\dialogs.hpp"
+class CfgFunctions {
+	#include "LARs\LARs_spawnComp.cpp"
+};
+
+#include "compositions\compositions.cfg"

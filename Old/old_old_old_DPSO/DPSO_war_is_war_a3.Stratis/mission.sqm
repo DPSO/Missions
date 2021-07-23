@@ -1,0 +1,8185 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=422;
+	};
+	class MarkerIDProvider
+	{
+		nextID=4;
+	};
+	class Camera
+	{
+		pos[]={1811.882,7.8909602,5504.9194};
+		dir[]={-0.43188271,-0.55755669,0.70895797};
+		up[]={-0.2901206,0.83007133,0.47624946};
+		aside[]={0.85402071,-8.8068191e-008,0.52025205};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Ui_F",
+	"A3_Soft_F_MRAP_01",
+	"ace_realisticnames",
+	"A3_Air_F_Heli_Light_01",
+	"A3_Air_F_Beta_Heli_Transport_01",
+	"A3_Air_F_Beta_Heli_Transport_02",
+	"ace_repair",
+	"A3_Soft_F_Beta_Truck_01",
+	"ace_cargo",
+	"A3_Armor_F_Beta_APC_Tracked_01",
+	"A3_Soft_F_Gamma_Truck_01",
+	"ace_rearm",
+	"ace_refuel",
+	"A3_Armor_F_EPC_MBT_01",
+	"A3_Air_F_Beta_Heli_Attack_01",
+	"A3_Air_F_EPC_Plane_CAS_01",
+	"A3_Air_F_Gamma_Plane_Fighter_03",
+	"A3_Armor_F_Gamma_APC_Wheeled_03",
+	"A3_Armor_F_EPB_MBT_03",
+	"A3_Soft_F_EPC_Truck_03",
+	"A3_Soft_F_MRAP_02",
+	"A3_Soft_F_Beta_Truck_02",
+	"A3_Armor_F_Beta_APC_Tracked_02",
+	"ace_vehicles",
+	"A3_Armor_F_Gamma_MBT_02",
+	"ace_cookoff",
+	"A3_Armor_F_Beta_APC_Wheeled_02",
+	"A3_Air_F_Beta_Heli_Attack_02",
+	"A3_Air_F_Heli_Light_02",
+	"A3_Air_F_EPC_Plane_CAS_02",
+	"A3_Soft_F_Gamma_Truck_02",
+	"A3_Soft_F_Beta_MRAP_03",
+	"A3_Armor_F_EPB_APC_Tracked_03",
+	"A3_Air_F_EPB_Heli_Light_03",
+	"A3_Structures_F_Civ_Camping",
+	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Animals_F_Rabbit",
+	"A3_Characters_F",
+	"cba_xeh",
+	"A3_Characters_F_Exp_Civil",
+	"ace_explosives",
+	"ace_gforces",
+	"ace_parachute",
+	"A3_Modules_F",
+	"A3_Characters_F_Mark"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=28;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Soft_F";
+			name="Arma 3 Alpha - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Air_F";
+			name="Arma 3 Alpha - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="A3_Air_F_Beta";
+			name="Arma 3 Beta - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="ace_repair";
+			name="ACE3 - Repair";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item6
+		{
+			className="A3_Soft_F_Beta";
+			name="Arma 3 Beta - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item7
+		{
+			className="ace_cargo";
+			name="ACE3 - Cargo";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item8
+		{
+			className="A3_Armor_F_Beta";
+			name="Arma 3 Beta - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
+		{
+			className="A3_Soft_F_Gamma";
+			name="Arma 3 - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item10
+		{
+			className="ace_rearm";
+			name="ACE3 - Rearm";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item11
+		{
+			className="ace_refuel";
+			name="ACE3 - Refuel";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item12
+		{
+			className="A3_Armor_F_EPC";
+			name="Arma 3 Win Episode - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item13
+		{
+			className="A3_Air_F_EPC";
+			name="Arma 3 Win Episode - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item14
+		{
+			className="A3_Air_F_Gamma";
+			name="Arma 3 - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item15
+		{
+			className="A3_Armor_F_Gamma";
+			name="Arma 3 - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item16
+		{
+			className="A3_Armor_F_EPB";
+			name="Arma 3 Adapt Episode - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item17
+		{
+			className="A3_Soft_F_EPC";
+			name="Arma 3 Win Episode - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item18
+		{
+			className="ace_cookoff";
+			name="ACE3 - Cook off";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item19
+		{
+			className="A3_Air_F_EPB";
+			name="Arma 3 Adapt Episode - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item20
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item21
+		{
+			className="A3_Supplies_F_Heli";
+			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item22
+		{
+			className="A3_Animals_F";
+			name="Arma 3 Alpha - Fauna";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item23
+		{
+			className="A3_Characters_F_Exp";
+			name="Arma 3 Apex - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item24
+		{
+			className="ace_explosives";
+			name="ACE3 - Explosives";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item25
+		{
+			className="ace_parachute";
+			name="ACE3 - Parachute";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item26
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item27
+		{
+			className="A3_Characters_F_Mark";
+			name="Arma 3 Marksmen - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=9208165;
+class ScenarioData
+{
+	author="YonV";
+};
+class Intro
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		briefingName="> SANDBOX 250 - BromA Framework MK 3 BETA 00631";
+		overviewText="Edit this description with a short explanation and important details about your mission.";
+		startWeather=0.099999994;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.099999994;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=35;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	class Entities
+	{
+		items=154;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={1806.6189,5.5,5719.9883};
+			name="AO";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorEAST";
+			fillName="Border";
+			a=250;
+			b=250;
+			drawBorder=1;
+			id=4;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={1757.0784,5.5,5675.9966};
+			name="respawn_west";
+			type="Empty";
+			colorName="ColorWEST";
+			id=5;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={5000.1689,5,999.41016};
+			name="respawn_east";
+			type="Empty";
+			colorName="ColorEAST";
+			id=6;
+			atlOffset=68.40741;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={2958.7788,5,1000.5464};
+			name="respawn_resistance";
+			type="Empty";
+			colorName="ColorGUER";
+			id=7;
+			atlOffset=8.5935221;
+		};
+		class Item4
+		{
+			dataType="Trigger";
+			position[]={1806.501,5.5,5719.582};
+			class Attributes
+			{
+				name="trg1";
+				condition="false";
+				sizeA=250;
+				sizeB=250;
+				interuptable=1;
+			};
+			id=8;
+			type="EmptyDetector";
+		};
+		class Item5
+		{
+			dataType="Trigger";
+			position[]={1907.0325,18.463718,5719.6157};
+			class Attributes
+			{
+				name="oz1";
+				condition="false";
+				onActivation="obj = [""oz1"",10,0,0,5,0,[],""""] spawn DAC_Objects";
+				interuptable=1;
+			};
+			id=9;
+			type="EmptyDetector";
+			atlOffset=12.908058;
+		};
+		class Item6
+		{
+			dataType="Trigger";
+			position[]={1757.2246,5.5,5711.647};
+			class Attributes
+			{
+				text="Executes code to the units inside the trigger.";
+				condition="true";
+				onActivation="_nul = [thisTrigger, ""(side _x == civilian)"", ""[_x, 'side_a'] call BRM_fnc_initAI""] spawn BRM_fnc_callCodeArea";
+				sizeA=2;
+				sizeB=2;
+				interuptable=1;
+			};
+			id=10;
+			type="EmptyDetector";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1749.5741,7.5839691,5617.1841};
+				angles[]={-0,6.2772326,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=11;
+			type="B_MRAP_01_F";
+			atlOffset=-0.12197638;
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1750.543,7.1814651,5568.314};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=12;
+			type="B_Heli_Light_01_F";
+			atlOffset=-0.097679138;
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1764.8354,7.5076141,5565.8691};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""ammo"",""medical"",""at"",""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=13;
+			type="B_Heli_Transport_01_F";
+			atlOffset=-0.13164568;
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2953.5886,2.9497926,885.22125};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""ammo"",""at"",""medical"",""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=14;
+			type="I_Heli_Transport_02_F";
+			atlOffset=15.070655;
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1751.0914,7.2279282,5544.8359};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=15;
+			type="B_Heli_Light_01_armed_F";
+			atlOffset=-0.051216125;
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1750.262,7.6285248,5630.4087};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=16;
+			type="B_Truck_01_transport_F";
+			atlOffset=-0.096265793;
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1757.4868,7.6657333,5631.1299};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=17;
+			type="B_Truck_01_covered_F";
+			atlOffset=-0.059057236;
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1757.7825,8.1577301,5617.2441};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=18;
+			type="B_MRAP_01_hmg_F";
+			atlOffset=-0.10051441;
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1765.6243,8.1892395,5617.3784};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=19;
+			type="B_MRAP_01_gmg_F";
+			atlOffset=-0.068982124;
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1757.811,7.8110809,5604.77};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""ammo"",""medical""]] spawn BRM_fnc_assignCargo";
+			};
+			id=20;
+			type="B_APC_Tracked_01_rcws_F";
+			atlOffset=-0.14163828;
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1750.5327,7.4037094,5646.8096};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""ammo_big"", ""at""]] spawn BRM_fnc_assignCargo";
+			};
+			id=21;
+			type="B_Truck_01_ammo_F";
+			atlOffset=-0.021876812;
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1758.6406,7.4049606,5646.6099};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=22;
+			type="B_Truck_01_fuel_F";
+			atlOffset=-0.011043549;
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1767.1584,7.7073288,5646.6416};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""medical""]] spawn BRM_fnc_assignCargo";
+			};
+			id=23;
+			type="B_Truck_01_medical_F";
+			atlOffset=-0.0052680969;
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1774.0133,7.8100052,5646.5};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=24;
+			type="B_Truck_01_Repair_F";
+			atlOffset=-0.0034723282;
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1749.5903,7.8689728,5605.1841};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=25;
+			type="B_MBT_01_TUSK_F";
+			atlOffset=-0.16832542;
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1782.7795,7.322052,5544.2222};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=26;
+			type="B_Heli_Attack_01_F";
+			atlOffset=-0.10987282;
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1751.2042,7.8591156,5520.7813};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=27;
+			type="B_Plane_CAS_01_F";
+			atlOffset=-0.02146101;
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2953.532,2.2138898,831.49799};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=28;
+			type="I_Plane_Fighter_03_CAS_F";
+			atlOffset=18.000586;
+		};
+		class Item25
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2950.9558,2.6767702,923.76416};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=29;
+			type="I_APC_Wheeled_03_cannon_F";
+			atlOffset=5.9353209;
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2951.5432,2.3301616,909.32983};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=30;
+			type="I_MBT_03_cannon_F";
+			atlOffset=10.173128;
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4994.7168,2.0999231,974.80939};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""ammo_big"", ""at""]] spawn BRM_fnc_assignCargo";
+			};
+			id=31;
+			type="O_Truck_03_ammo_F";
+			atlOffset=54.604855;
+		};
+		class Item28
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5002.1519,2.0290592,975.03107};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=32;
+			type="O_Truck_03_fuel_F";
+			atlOffset=55.467339;
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5019.3965,2.2404256,974.53125};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""medical""]] spawn BRM_fnc_assignCargo";
+			};
+			id=33;
+			type="O_Truck_03_medical_F";
+			atlOffset=57.226746;
+		};
+		class Item30
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5010.1021,1.9590019,974.9942};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=34;
+			type="O_Truck_03_repair_F";
+			atlOffset=56.279327;
+		};
+		class Item31
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4995.6289,2.4056768,942.4975};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=35;
+			type="O_MRAP_02_F";
+			atlOffset=47.756294;
+		};
+		class Item32
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5003.5352,2.763242,942.60876};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=36;
+			type="O_MRAP_02_gmg_F";
+			atlOffset=48.463493;
+		};
+		class Item33
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5011.002,2.7286322,942.90527};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=37;
+			type="O_MRAP_02_hmg_F";
+			atlOffset=49.107506;
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5019.7832,2.2508819,957.40436};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=38;
+			type="O_Truck_02_transport_F";
+			atlOffset=52.648846;
+		};
+		class Item35
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5010.5864,2.3311114,958.9928};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=39;
+			type="O_Truck_02_covered_F";
+			atlOffset=52.023468;
+		};
+		class Item36
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4995.1006,2.4243445,958.37756};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=40;
+			type="O_Truck_03_transport_F";
+			atlOffset=50.347702;
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5003.0669,2.4301066,957.92126};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=41;
+			type="O_Truck_03_covered_F";
+			atlOffset=51.01342;
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4995.916,2.4291279,927.9718};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=42;
+			type="O_APC_Tracked_02_cannon_F";
+			atlOffset=46.587254;
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5005.5283,2.2701738,929.02704};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=43;
+			type="O_MBT_02_cannon_F";
+			atlOffset=47.308479;
+		};
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5014.269,2.5827918,927.86621};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=44;
+			type="O_APC_Wheeled_02_rcws_F";
+			atlOffset=47.536617;
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4995.7749,3.1570692,909.51532};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=45;
+			type="O_Heli_Attack_02_F";
+			atlOffset=44.301075;
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5012.7769,2.2630842,907.91791};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=46;
+			type="O_Heli_Light_02_v2_F";
+			atlOffset=44.861576;
+		};
+		class Item43
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4999.8188,2.9152262,884.68939};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""opfor"", [""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=47;
+			type="O_Plane_CAS_02_F";
+			atlOffset=42.785099;
+		};
+		class Item44
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2952.2498,2.3578036,971.21014};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""ammo_big"", ""at""]] spawn BRM_fnc_assignCargo";
+			};
+			id=48;
+			type="I_Truck_02_ammo_F";
+			atlOffset=8.6053638;
+		};
+		class Item45
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2963.8613,2.3435245,971.95667};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=49;
+			type="I_Truck_02_fuel_F";
+			atlOffset=7.4481726;
+		};
+		class Item46
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2989.4209,2.3034668,971.01355};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""medical""]] spawn BRM_fnc_assignCargo";
+			};
+			id=50;
+			type="I_Truck_02_medical_F";
+			atlOffset=5.7816172;
+		};
+		class Item47
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2977.1619,2.3632648,971.65405};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=51;
+			type="I_Truck_02_box_F";
+			atlOffset=4.9666576;
+		};
+		class Item48
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2950.5706,1.833609,939.39453};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=52;
+			type="I_MRAP_03_F";
+			atlOffset=4.5936871;
+		};
+		class Item49
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2959.3577,2.4313958,940.12793};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=53;
+			type="I_MRAP_03_hmg_F";
+			atlOffset=4.9235253;
+		};
+		class Item50
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2968.8542,2.4384925,939.77686};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+			};
+			id=54;
+			type="I_MRAP_03_gmg_F";
+			atlOffset=6.8852735;
+		};
+		class Item51
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2951.3833,2.4124241,953.85333};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=55;
+			type="I_Truck_02_transport_F";
+			atlOffset=5.916286;
+		};
+		class Item52
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2962.7468,2.3588645,954.47333};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=56;
+			type="I_Truck_02_covered_F";
+			atlOffset=5.2122993;
+		};
+		class Item53
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2961.4329,2.3669043,924.17621};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""ammo""]] spawn BRM_fnc_assignCargo";
+			};
+			id=57;
+			type="I_APC_tracked_03_cannon_F";
+			atlOffset=7.0551071;
+		};
+		class Item54
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2974.551,1.9541161,887.05035};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""ammo"",""at"",""medical"",""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=58;
+			type="I_Heli_light_03_unarmed_F";
+			atlOffset=19.429607;
+		};
+		class Item55
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2950.6755,1.3734064,857.62488};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""indfor"", [""ammo"",""at"",""medical"",""parachutes""]] spawn BRM_fnc_assignCargo";
+			};
+			id=59;
+			type="I_Heli_light_03_F";
+			atlOffset=15.262941;
+		};
+		class Item56
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1753.5524,6.006279,5685.917};
+				angles[]={-0,0.059657972,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+			};
+			id=60;
+			type="Land_CampingChair_V1_F";
+			atlOffset=-0.0013780594;
+		};
+		class Item57
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1754.6241,6.006279,5685.8672};
+				angles[]={-0,0.059657972,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+			};
+			id=61;
+			type="Land_CampingChair_V1_F";
+			atlOffset=-0.0013780594;
+		};
+		class Item58
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1752.3651,6.0063629,5685.9321};
+				angles[]={-0,0.059657972,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+			};
+			id=62;
+			type="Land_CampingChair_V1_F";
+			atlOffset=-0.001294136;
+		};
+		class Item59
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1751.1945,6.0063629,5685.9653};
+				angles[]={-0,0.059657972,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+			};
+			id=63;
+			type="Land_CampingChair_V1_F";
+			atlOffset=-0.001294136;
+		};
+		class Item60
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1759.9448,6.3236923,5687.9541};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=1;
+				lock="UNLOCKED";
+				init="_cargo = [this, ""blufor"", [""medical"",""medical_adv"",""ammo"",""radio"", ""at""]] spawn BRM_fnc_assignCargo";
+			};
+			id=64;
+			type="B_CargoNet_01_ammo_F";
+			atlOffset=-0.0016102791;
+		};
+		class Item61
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1647.0967,74.017731,5337.7378};
+			};
+			side="Ambient";
+			class Attributes
+			{
+				skill=1;
+				init="this setVariable [""is_spectator"", true, false];";
+				name="spec1";
+				description="Spectator";
+				isPlayable=1;
+			};
+			id=65;
+			type="Rabbit_F";
+			atlOffset=68.381119;
+		};
+		class Item62
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1660.4982,75.609116,5337.7378};
+			};
+			side="Ambient";
+			class Attributes
+			{
+				skill=1;
+				init="this setVariable [""is_spectator"", true, false];";
+				name="spec2";
+				description="Spectator";
+				isPlayable=1;
+			};
+			id=66;
+			type="Rabbit_F";
+			atlOffset=69.972504;
+		};
+		class Item63
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1674.5929,76.276306,5337.7822};
+			};
+			side="Ambient";
+			class Attributes
+			{
+				skill=1;
+				init="this setVariable [""is_spectator"", true, false];";
+				name="spec3";
+				description="Spectator";
+				isPlayable=1;
+			};
+			id=67;
+			type="Rabbit_F";
+			atlOffset=70.639694;
+		};
+		class Item64
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1688.6876,74.963455,5337.7124};
+			};
+			side="Ambient";
+			class Attributes
+			{
+				skill=1;
+				init="this setVariable [""is_spectator"", true, false];";
+				name="spec4";
+				description="Spectator";
+				isPlayable=1;
+			};
+			id=68;
+			type="Rabbit_F";
+			atlOffset=69.326843;
+		};
+		class Item65
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1703.4756,74.570755,5337.9688};
+			};
+			side="Ambient";
+			class Attributes
+			{
+				skill=1;
+				init="this setVariable [""is_spectator"", true, false];";
+				name="spec5";
+				description="Spectator";
+				isPlayable=1;
+			};
+			id=69;
+			type="Rabbit_F";
+			atlOffset=68.934143;
+		};
+		class Item66
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1757.2456,7.3319178,5704.8418};
+				angles[]={-0,1.5885209,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=1;
+				name="car1";
+			};
+			id=70;
+			type="I_MRAP_03_F";
+		};
+		class Item67
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1757.0593,5.5014391,5685.4365};
+						angles[]={-0,0.023792733,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="COLONEL";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_0_0_1";
+						description="Zero Actual - Commander";
+						isPlayer=1;
+						isPlayable=1;
+					};
+					id=72;
+					type="B_officer_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1756.3367,5.5014391,5684.0107};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="blu_0_0_2";
+						description="     Zero '2 - RTO";
+						isPlayable=1;
+					};
+					id=73;
+					type="B_recon_JTAC_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1757.8774,5.5014391,5684.0396};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="blu_0_0_3";
+						description="     Zero '3 - Medic";
+						isPlayable=1;
+					};
+					id=74;
+					type="B_medic_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=71;
+		};
+		class Item68
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1757.1582,5.5014391,5687.5942};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						name="tgt1";
+					};
+					id=76;
+					type="C_scientist_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=75;
+		};
+		class Item69
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1758.2368,5.5014391,5687.6108};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						name="tgt2";
+					};
+					id=78;
+					type="C_man_pilot_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=77;
+		};
+		class Item70
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1622.6168,76.427063,5272.1553};
+			};
+			name="Headless_Client";
+			isPlayable=1;
+			description="Headless Client";
+			id=79;
+			type="HeadlessClient_F";
+			atlOffset=70.927063;
+		};
+		class Item71
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=7;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1757.1997,5.5014391,5712.8433};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						presence=0;
+					};
+					id=81;
+					type="C_man_1";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1759.1997,5.5014391,5707.8936};
+					};
+					side="Civilian";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						presence=0;
+					};
+					id=82;
+					type="C_man_1";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1755.1997,5.5014391,5707.8936};
+					};
+					side="Civilian";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						presence=0;
+					};
+					id=83;
+					type="C_man_1";
+				};
+				class Item3
+				{
+					dataType="Waypoint";
+					position[]={1744.0347,5.5,5724.9893};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=84;
+					type="Move";
+				};
+				class Item4
+				{
+					dataType="Waypoint";
+					position[]={1757.2397,5.5,5738.4683};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=85;
+					type="Move";
+				};
+				class Item5
+				{
+					dataType="Waypoint";
+					position[]={1770.373,5.5,5724.9785};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=86;
+					type="Move";
+				};
+				class Item6
+				{
+					dataType="Waypoint";
+					position[]={1757.1902,5.5,5712.7314};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=87;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=80;
+		};
+		class Item72
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1753.6826,5.5014391,5681.6396};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_1_0_1";
+						description="Alpha Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=89;
+					type="B_Soldier_SL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1753.6846,5.5014391,5680.5664};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="blu_1_0_2";
+						description="     Alpha '2 - RTO";
+						isPlayable=1;
+					};
+					id=90;
+					type="B_recon_JTAC_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1753.676,5.5014391,5679.3032};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="blu_1_0_3";
+						description="     Alpha '3 - Medic";
+						isPlayable=1;
+					};
+					id=91;
+					type="B_medic_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=88;
+		};
+		class Item73
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1752.3933,5.5014391,5680.4961};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_1_1_1";
+						description="     Alpha 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=93;
+					type="B_Soldier_TL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1752.4048,5.5014391,5679.4033};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_1_1_2";
+						description="          Alpha 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=94;
+					type="B_Soldier_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1752.4063,5.5014391,5678.1792};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_1_1_3";
+						description="          Alpha 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=95;
+					type="B_soldier_LAT_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1752.406,5.5014391,5677.0962};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_1_1_4";
+						description="          Alpha 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=96;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=92;
+		};
+		class Item74
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1754.9399,5.5014391,5680.4775};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_1_2_1";
+						description="     Alpha 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=98;
+					type="B_Soldier_TL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1754.9514,5.5014391,5679.3555};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_1_2_2";
+						description="          Alpha 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=99;
+					type="B_Soldier_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1754.9331,5.5014391,5678.2773};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_1_2_3";
+						description="          Alpha 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=100;
+					type="B_soldier_LAT_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1754.9429,5.5014391,5677.0972};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_1_2_4";
+						description="          Alpha 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=101;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=97;
+		};
+		class Item75
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1760.3687,5.5014391,5681.5913};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_2_0_1";
+						description="Bravo Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=103;
+					type="B_Soldier_SL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1760.3721,5.5014391,5680.4697};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="blu_2_0_2";
+						description="     Bravo '2 - RTO";
+						isPlayable=1;
+					};
+					id=104;
+					type="B_recon_JTAC_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1760.3809,5.5014391,5679.2915};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="blu_2_0_3";
+						description="     Bravo '3 - Medic";
+						isPlayable=1;
+					};
+					id=105;
+					type="B_medic_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=102;
+		};
+		class Item76
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1759.0547,5.5014391,5680.48};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_2_1_1";
+						description="     Bravo 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=107;
+					type="B_Soldier_TL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1759.0679,5.5014391,5679.3779};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_2_1_2";
+						description="          Bravo 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=108;
+					type="B_Soldier_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1759.0569,5.5014391,5678.2153};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_2_1_3";
+						description="          Bravo 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=109;
+					type="B_soldier_LAT_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1759.0544,5.5014391,5677.0957};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_2_1_4";
+						description="          Bravo 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=110;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=106;
+		};
+		class Item77
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1761.6792,5.5014391,5680.3521};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_2_2_1";
+						description="     Bravo 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=112;
+					type="B_Soldier_TL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1761.647,5.5014391,5679.2041};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_2_2_2";
+						description="          Bravo 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=113;
+					type="B_Soldier_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1761.6572,5.5014391,5678.2041};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_2_2_3";
+						description="          Bravo 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=114;
+					type="B_soldier_LAT_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1761.6743,5.5014391,5677.0996};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_2_2_4";
+						description="          Bravo 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=115;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=111;
+		};
+		class Item78
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1753.8794,5.5014391,5674.0728};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_3_0_1";
+						description="Charlie Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=117;
+					type="B_Soldier_SL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1753.8799,5.5014391,5673.1206};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="blu_3_0_2";
+						description="     Charlie '2 - RTO";
+						isPlayable=1;
+					};
+					id=118;
+					type="B_recon_JTAC_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1753.916,5.5014391,5671.9526};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="blu_3_0_3";
+						description="     Charlie '3 - Medic";
+						isPlayable=1;
+					};
+					id=119;
+					type="B_medic_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=116;
+		};
+		class Item79
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1752.3254,5.5014391,5673.0352};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_3_1_1";
+						description="     Charlie 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=121;
+					type="B_Soldier_TL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1752.3359,5.5014391,5671.894};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_3_1_2";
+						description="          Charlie 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=122;
+					type="B_Soldier_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1752.3237,5.5014391,5670.7114};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_3_1_3";
+						description="          Charlie 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=123;
+					type="B_soldier_LAT_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1752.3252,5.5014391,5669.6992};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_3_1_4";
+						description="          Charlie 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=124;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=120;
+		};
+		class Item80
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1755.4565,5.5014391,5673.0132};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_3_2_1";
+						description="     Charlie 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=126;
+					type="B_Soldier_TL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1755.4668,5.5014391,5672.0044};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_3_2_2";
+						description="          Charlie 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=127;
+					type="B_Soldier_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1755.4827,5.5014391,5670.8936};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_3_2_3";
+						description="          Charlie 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=128;
+					type="B_soldier_LAT_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1755.5254,5.5014391,5669.7017};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_3_2_4";
+						description="          Charlie 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=129;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=125;
+		};
+		class Item81
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1760.2554,5.5014391,5673.8716};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_4_0_1";
+						description="Delta Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=131;
+					type="B_Soldier_SL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1760.2646,5.5014391,5672.9512};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="blu_4_0_2";
+						description="     Delta '2 - RTO";
+						isPlayable=1;
+					};
+					id=132;
+					type="B_recon_JTAC_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1760.2776,5.5014391,5671.8022};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="blu_4_0_3";
+						description="     Delta '3 - Medic";
+						isPlayable=1;
+					};
+					id=133;
+					type="B_medic_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=130;
+		};
+		class Item82
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1758.7217,5.5014391,5672.9907};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_4_1_1";
+						description="     Delta 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=135;
+					type="B_Soldier_TL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1758.7324,5.5014391,5671.8506};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_4_1_2";
+						description="          Delta 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=136;
+					type="B_Soldier_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1758.7263,5.5014391,5670.6978};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_4_1_3";
+						description="          Delta 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=137;
+					type="B_soldier_LAT_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1758.6946,5.5014391,5669.7075};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_4_1_4";
+						description="          Delta 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=138;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=134;
+		};
+		class Item83
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1761.7327,5.5014391,5672.8999};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_4_2_1";
+						description="     Delta 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=140;
+					type="B_Soldier_TL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1761.7588,5.5014391,5671.9097};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_4_2_2";
+						description="          Delta 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=141;
+					type="B_Soldier_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1761.7529,5.5014391,5670.8018};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_4_2_3";
+						description="          Delta 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=142;
+					type="B_soldier_LAT_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1761.7363,5.5014391,5669.707};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_4_2_4";
+						description="          Delta 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=143;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=139;
+		};
+		class Item84
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1765.969,5.5014391,5676.9487};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_6_0_1";
+						description="Sierra '1 - Sniper";
+						isPlayable=1;
+					};
+					id=145;
+					type="B_sniper_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1765.97,5.5014391,5675.9375};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_6_0_2";
+						description="     Sierra '2 - Spotter";
+						isPlayable=1;
+					};
+					id=146;
+					type="B_spotter_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1765.9541,5.5014391,5674.9365};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_6_0_3";
+						description="Sierra '3 - Sniper";
+						isPlayable=1;
+					};
+					id=147;
+					type="B_sniper_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1765.9438,5.5014391,5673.8306};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_6_0_4";
+						description="     Sierra '4 - Spotter";
+						isPlayable=1;
+					};
+					id=148;
+					type="B_spotter_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=144;
+		};
+		class Item85
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1769.1206,5.5014391,5676.9668};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_8_0_1";
+						description="Shocker '1 - Repair Specialist";
+						isPlayable=1;
+					};
+					id=150;
+					type="B_soldier_repair_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1769.1355,5.5014391,5675.938};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_8_0_2";
+						description="Shocker '2 - Explosive Specialist";
+						isPlayable=1;
+					};
+					id=151;
+					type="B_soldier_exp_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1769.1187,5.5014391,5674.8457};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""*"",""*""], true];";
+						name="blu_8_0_3";
+						description="Shocker '3 - Engineer";
+						isPlayable=1;
+					};
+					id=152;
+					type="B_engineer_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=149;
+		};
+		class Item86
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1764.1611,5.5014391,5676.9199};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_5_0_1";
+						description="Razor '1 - Recon Team Leader";
+						isPlayable=1;
+					};
+					id=154;
+					type="B_recon_TL_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1764.1807,5.5014391,5675.8843};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_5_0_2";
+						description="     Razor '2 - Recon Scout";
+						isPlayable=1;
+					};
+					id=155;
+					type="B_recon_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1764.1372,5.5014391,5674.8994};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="blu_5_0_3";
+						description="     Razor '3 - Recon Paramedic";
+						isPlayable=1;
+					};
+					id=156;
+					type="B_recon_medic_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1764.1628,5.5014391,5673.8652};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_5_0_4";
+						description="     Razor '4 - Demo Specialist";
+						isPlayable=1;
+					};
+					id=157;
+					type="B_recon_exp_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=153;
+		};
+		class Item87
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1767.4736,5.5014391,5676.96};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_7_0_1";
+						description="Wizard '1 - Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=159;
+					type="B_support_MG_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1767.4883,5.5014391,5675.9312};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_7_0_2";
+						description="Wizard '2 - Asst. Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=160;
+					type="B_support_AMG_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1767.4714,5.5014391,5674.8389};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_7_0_3";
+						description="Wizard '3 - Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=161;
+					type="B_support_MG_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1767.468,5.5014391,5673.8135};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="blu_7_0_4";
+						description="Wizard '4 - Asst. Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=162;
+					type="B_support_AMG_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=158;
+		};
+		class Item88
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1770.5339,5.5014391,5676.9546};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="blu_9_0_1";
+						description="Paradise '1 - Paramedic";
+						isPlayable=1;
+					};
+					id=164;
+					type="B_medic_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1770.5586,5.5014391,5675.9136};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="blu_9_0_2";
+						description="Paradise '2 - Paramedic";
+						isPlayable=1;
+					};
+					id=165;
+					type="B_medic_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=163;
+		};
+		class Item89
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1771.8643,5.5014391,5676.9326};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_10_1_1";
+						description="Meteor 1'1 - Mortar Gunner";
+						isPlayable=1;
+					};
+					id=167;
+					type="B_soldier_exp_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1771.8892,5.5014391,5675.8916};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_10_1_2";
+						description="Meteor 1'2 - Mortar Asst.";
+						isPlayable=1;
+					};
+					id=168;
+					type="B_soldier_exp_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=166;
+		};
+		class Item90
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1775.834,5.5014391,5676.8916};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_11_1_1";
+						description="Lancer 1'1 - Commander";
+						isPlayable=1;
+					};
+					id=170;
+					type="B_crew_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1775.853,5.5014391,5675.833};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""Gunner"",""*""], true];";
+						name="blu_11_1_2";
+						description="     Lancer 1'2 - Gunner";
+						isPlayable=1;
+					};
+					id=171;
+					type="B_crew_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1775.8628,5.5014391,5674.8545};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""Driver"",""*""], true];";
+						name="blu_11_1_3";
+						description="     Lancer 1'2 - Driver";
+						isPlayable=1;
+					};
+					id=172;
+					type="B_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=169;
+		};
+		class Item91
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1777.4531,5.5014391,5676.9492};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_12_1_1";
+						description="Titan 1'1 - Commander";
+						isPlayable=1;
+					};
+					id=174;
+					type="B_crew_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1777.4258,5.5014391,5675.8525};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""Gunner"",""*""], true];";
+						name="blu_12_1_2";
+						description="     Titan - Gunner";
+						isPlayable=1;
+					};
+					id=175;
+					type="B_crew_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1777.4448,5.5014391,5674.8135};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""Driver"",""*""], true];";
+						name="blu_12_1_3";
+						description="     Titan 1'3 - Driver";
+						isPlayable=1;
+					};
+					id=176;
+					type="B_crew_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1777.4851,5.5014391,5673.897};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""Loader"",""*""], true];";
+						name="blu_12_1_4";
+						description="     Titan 1'4 - Loader";
+						isPlayable=1;
+					};
+					id=177;
+					type="B_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=173;
+		};
+		class Item92
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1778.9519,5.5014391,5676.9429};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_13_1_1";
+						description="Havoc 1'1 - Pilot";
+						isPlayable=1;
+					};
+					id=179;
+					type="B_Helipilot_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1778.9514,5.5014391,5675.7959};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_13_1_2";
+						description="Havoc 1'2 - Co-pilot";
+						isPlayable=1;
+					};
+					id=180;
+					type="B_Helipilot_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1778.9612,5.5014391,5674.8042};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_13_1_3";
+						description="     Havoc 1'3 - Crew";
+						isPlayable=1;
+					};
+					id=181;
+					type="B_helicrew_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1778.9675,5.5014391,5673.8276};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_13_1_4";
+						description="     Havoc 1'4 - Crew";
+						isPlayable=1;
+					};
+					id=182;
+					type="B_helicrew_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1778.9758,5.5014391,5672.9126};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_13_1_5";
+						description="     Havoc 1'5 - Crew";
+						isPlayable=1;
+					};
+					id=183;
+					type="B_helicrew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=178;
+		};
+		class Item93
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1773.2051,5.5014391,5677.0176};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_14_1_1";
+						description="Pegasus 1'1 - Pilot";
+						isPlayable=1;
+					};
+					id=185;
+					type="B_Pilot_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1774.5803,5.5014391,5677.0273};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_14_1_2";
+						description="Pegasus 1'2 - Co-pilot";
+						isPlayable=1;
+					};
+					id=186;
+					type="B_Pilot_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=184;
+		};
+		class Item94
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1773.2051,5.5014391,5675.8379};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="blu_14_2_1";
+						description="Pegasus 2'1 - Pilot";
+						isPlayable=1;
+					};
+					id=188;
+					type="B_Pilot_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1774.5803,5.5014391,5675.8477};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="blu_14_2_2";
+						description="Pegasus 2'2 - Co-pilot";
+						isPlayable=1;
+					};
+					id=189;
+					type="B_Pilot_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=187;
+		};
+		class Item95
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5000.1357,0.0073929615,1008.6589};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="COLONEL";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_0_0_1";
+						description="Godfather Actual - Commander";
+						isPlayable=1;
+					};
+					id=191;
+					type="O_officer_F";
+					atlOffset=66.573143;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4999.3887,0.011605792,1007.7829};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="op_0_0_2";
+						description="     Godfather '2 - RTO";
+						isPlayable=1;
+					};
+					id=192;
+					type="O_recon_JTAC_F";
+					atlOffset=66.182274;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5000.9297,0.004926838,1007.8117};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="op_0_0_3";
+						description="     Godfather '3 - Medic";
+						isPlayable=1;
+					};
+					id=193;
+					type="O_medic_F";
+					atlOffset=66.36879;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=190;
+			atlOffset=66.573143;
+		};
+		class Item96
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4996.6914,0.028725863,1005.7556};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_1_0_1";
+						description="Anaconda Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=195;
+					type="O_Soldier_SL_F";
+					atlOffset=65.155876;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4996.6934,0.025907138,1004.6823};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="op_1_0_2";
+						description="     Anaconda '2 - RTO";
+						isPlayable=1;
+					};
+					id=196;
+					type="O_recon_JTAC_F";
+					atlOffset=64.777657;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4996.6846,0.019264592,1003.4192};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="op_1_0_3";
+						description="     Anaconda '3 - Medic";
+						isPlayable=1;
+					};
+					id=197;
+					type="O_medic_F";
+					atlOffset=64.330902;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=194;
+			atlOffset=65.155876;
+		};
+		class Item97
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4995.4023,0.037549164,1004.612};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_1_1_1";
+						description="     Anaconda 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=199;
+					type="O_Soldier_TL_F";
+					atlOffset=64.601006;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4995.4141,0.032932721,1003.5193};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_1_1_2";
+						description="          Anaconda 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=200;
+					type="O_Soldier_F";
+					atlOffset=64.223259;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4995.415,0.024875784,1002.2951};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_1_1_3";
+						description="          Anaconda 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=201;
+					type="O_Soldier_LAT_F";
+					atlOffset=63.808281;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4995.415,0.015801752,1001.2121};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_1_1_4";
+						description="          Anaconda 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=202;
+					type="O_Soldier_AR_F";
+					atlOffset=63.439106;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=198;
+			atlOffset=64.601006;
+		};
+		class Item98
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4997.9482,0.014004899,1004.5935};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_1_2_1";
+						description="     Anaconda 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=204;
+					type="O_Soldier_TL_F";
+					atlOffset=64.90094;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4997.96,0.0065614302,1003.4714};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_1_2_2";
+						description="          Anaconda 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=205;
+					type="O_Soldier_F";
+					atlOffset=64.505196;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4997.9424,-0.0022008251,1002.3933};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_1_2_3";
+						description="          Anaconda 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=206;
+					type="O_Soldier_LAT_F";
+					atlOffset=64.122177;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4997.9512,-0.013404118,1001.2131};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_1_2_4";
+						description="          Anaconda 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=207;
+					type="O_Soldier_AR_F";
+					atlOffset=63.716022;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=203;
+			atlOffset=64.90094;
+		};
+		class Item99
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5003.3779,-0.017385339,1005.7071};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_2_0_1";
+						description="Boa Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=209;
+					type="O_Soldier_SL_F";
+					atlOffset=65.907196;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5003.3809,-0.028268414,1004.5856};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="op_2_0_2";
+						description="     Boa '2 - RTO";
+						isPlayable=1;
+					};
+					id=210;
+					type="O_recon_JTAC_F";
+					atlOffset=65.512527;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5003.3896,-0.041037373,1003.4073};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="op_2_0_3";
+						description="     Boa '3 - Medic";
+						isPlayable=1;
+					};
+					id=211;
+					type="O_medic_F";
+					atlOffset=65.095604;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=208;
+			atlOffset=65.907196;
+		};
+		class Item100
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5002.0635,-0.019714886,1004.5957};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_2_1_1";
+						description="     Boa 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=213;
+					type="O_Soldier_TL_F";
+					atlOffset=65.373047;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5002.0762,-0.0307131,1003.4938};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_2_1_2";
+						description="          Boa 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=214;
+					type="O_Soldier_F";
+					atlOffset=64.984718;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5002.0654,-0.042956647,1002.3311};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_2_1_3";
+						description="          Boa 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=215;
+					type="O_Soldier_LAT_F";
+					atlOffset=64.570122;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5002.0635,-0.054697763,1001.2114};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_2_1_4";
+						description="          Boa 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=216;
+					type="O_Soldier_AR_F";
+					atlOffset=64.171844;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=212;
+			atlOffset=65.373047;
+		};
+		class Item101
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5004.6885,-0.036505215,1004.4681};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_2_2_1";
+						description="     Boa 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=218;
+					type="O_Soldier_TL_F";
+					atlOffset=65.605827;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5004.6563,-0.049537599,1003.3203};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_2_2_2";
+						description="          Boa 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=219;
+					type="O_Soldier_F";
+					atlOffset=65.201111;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5004.666,-0.060955949,1002.3198};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_2_2_3";
+						description="          Boa 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=220;
+					type="O_Soldier_LAT_F";
+					atlOffset=64.845612;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5004.6826,-0.072658435,1001.2156};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_2_2_4";
+						description="          Boa 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=221;
+					type="O_Soldier_AR_F";
+					atlOffset=64.454834;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=217;
+			atlOffset=65.605827;
+		};
+		class Item102
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4996.8877,-0.029375151,998.18884};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_3_0_1";
+						description="Cobra Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=223;
+					type="O_Soldier_SL_F";
+					atlOffset=62.5653;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4996.8887,-0.036468286,997.23657};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="op_3_0_2";
+						description="     Cobra '2 - RTO";
+						isPlayable=1;
+					};
+					id=224;
+					type="O_recon_JTAC_F";
+					atlOffset=62.248821;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4996.9248,-0.043165237,996.06854};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="op_3_0_3";
+						description="     Cobra '3 - Medic";
+						isPlayable=1;
+					};
+					id=225;
+					type="O_medic_F";
+					atlOffset=61.866219;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=222;
+			atlOffset=62.5653;
+		};
+		class Item103
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4995.334,-0.020269323,997.15106};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_3_1_1";
+						description="     Cobra 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=227;
+					type="O_Soldier_TL_F";
+					atlOffset=62.06955;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4995.3447,-0.027778711,996.00977};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_3_1_2";
+						description="          Cobra 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=228;
+					type="O_Soldier_F";
+					atlOffset=61.688877;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4995.332,-0.032380302,994.82715};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_3_1_3";
+						description="          Cobra 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=229;
+					type="O_Soldier_LAT_F";
+					atlOffset=61.292492;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4995.334,-0.033625066,993.815};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_3_1_4";
+						description="          Cobra 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=230;
+					type="O_Soldier_AR_F";
+					atlOffset=60.95747;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=226;
+			atlOffset=62.06955;
+		};
+		class Item104
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4998.4658,-0.053356871,997.12891};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_3_2_1";
+						description="     Cobra 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=232;
+					type="O_Soldier_TL_F";
+					atlOffset=62.358601;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4998.4756,-0.057599716,996.12024};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_3_2_2";
+						description="          Cobra 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=233;
+					type="O_Soldier_F";
+					atlOffset=62.027538;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4998.4912,-0.059295036,995.00958};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_3_2_3";
+						description="          Cobra 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=234;
+					type="O_Soldier_LAT_F";
+					atlOffset=61.666485;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4998.5342,-0.057488315,993.81763};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_3_2_4";
+						description="          Cobra 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=235;
+					type="O_Soldier_AR_F";
+					atlOffset=61.285313;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=231;
+			atlOffset=62.358601;
+		};
+		class Item105
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5003.2646,-0.087773144,997.98749};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_4_0_1";
+						description="Dragon Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=237;
+					type="O_Soldier_SL_F";
+					atlOffset=63.169819;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5003.2734,-0.090273283,997.06708};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="op_4_0_2";
+						description="     Dragon '2 - RTO";
+						isPlayable=1;
+					};
+					id=238;
+					type="O_recon_JTAC_F";
+					atlOffset=62.853085;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5003.2861,-0.090107784,995.91803};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="op_4_0_3";
+						description="     Dragon '3 - Medic";
+						isPlayable=1;
+					};
+					id=239;
+					type="O_medic_F";
+					atlOffset=62.463474;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=236;
+			atlOffset=63.169819;
+		};
+		class Item106
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5001.7305,-0.081157744,997.10657};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_4_1_1";
+						description="     Dragon 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=241;
+					type="O_Soldier_TL_F";
+					atlOffset=62.698288;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5001.7412,-0.082594439,995.96631};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_4_1_2";
+						description="          Dragon 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=242;
+					type="O_Soldier_F";
+					atlOffset=62.30901;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5001.7354,-0.080261201,994.81372};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_4_1_3";
+						description="          Dragon 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=243;
+					type="O_Soldier_LAT_F";
+					atlOffset=61.936081;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5001.7031,-0.075202405,993.82349};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_4_1_4";
+						description="          Dragon 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=244;
+					type="O_Soldier_AR_F";
+					atlOffset=61.615608;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=240;
+			atlOffset=62.698288;
+		};
+		class Item107
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5004.7412,-0.095851898,997.01581};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_4_2_1";
+						description="     Dragon 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=246;
+					type="O_Soldier_TL_F";
+					atlOffset=63.000599;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5004.7676,-0.094613731,996.02545};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_4_2_2";
+						description="          Dragon 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=247;
+					type="O_Soldier_F";
+					atlOffset=62.665977;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5004.7617,-0.089919731,994.91766};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_4_2_3";
+						description="          Dragon 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=248;
+					type="O_Soldier_LAT_F";
+					atlOffset=62.304428;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5004.7451,-0.082182512,993.82318};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_4_2_4";
+						description="          Dragon 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=249;
+					type="O_Soldier_AR_F";
+					atlOffset=61.954628;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=245;
+			atlOffset=63.000599;
+		};
+		class Item108
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5008.9775,-0.084105365,1001.0647};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_6_0_1";
+						description="Scorpion '1 - Sniper";
+						isPlayable=1;
+					};
+					id=251;
+					type="O_sniper_F";
+					atlOffset=64.84481;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5008.9785,-0.090540126,1000.0534};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_6_0_2";
+						description="     Scorpion '2 - Spotter";
+						isPlayable=1;
+					};
+					id=252;
+					type="O_spotter_F";
+					atlOffset=64.49968;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5008.9629,-0.094317876,999.05249};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_6_0_3";
+						description="Scorpion '3 - Sniper";
+						isPlayable=1;
+					};
+					id=253;
+					type="O_sniper_F";
+					atlOffset=64.142212;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5008.9531,-0.095273815,997.94647};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_6_0_4";
+						description="     Scorpion '4 - Spotter";
+						isPlayable=1;
+					};
+					id=254;
+					type="O_spotter_F";
+					atlOffset=63.76722;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=250;
+			atlOffset=64.84481;
+		};
+		class Item109
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5012.1299,-0.075490013,1001.0827};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_8_0_1";
+						description="Sparrow '1 - Repair Specialist";
+						isPlayable=1;
+					};
+					id=256;
+					type="O_soldier_repair_F";
+					atlOffset=65.15136;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5012.1445,-0.079231389,1000.0539};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_8_0_2";
+						description="Sparrow '2 - Explosive Specialist";
+						isPlayable=1;
+					};
+					id=257;
+					type="O_soldier_exp_F";
+					atlOffset=64.801491;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5012.1279,-0.080209941,998.96155};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""*"",""*""], true];";
+						name="op_8_0_3";
+						description="Sparrow '3 - Engineer";
+						isPlayable=1;
+					};
+					id=258;
+					type="O_engineer_F";
+					atlOffset=64.41523;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=255;
+			atlOffset=65.15136;
+		};
+		class Item110
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5007.1699,-0.083270326,1001.0359};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_5_0_1";
+						description="Raven '1 - Recon Team Leader";
+						isPlayable=1;
+					};
+					id=260;
+					type="O_recon_TL_F";
+					atlOffset=64.660484;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5007.1895,-0.091022193,1000.0002};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_5_0_2";
+						description="     Raven '2 - Recon Scout";
+						isPlayable=1;
+					};
+					id=261;
+					type="O_recon_F";
+					atlOffset=64.299545;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5007.1465,-0.09592019,999.01538};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="op_5_0_3";
+						description="     Raven '3 - Recon Paramedic";
+						isPlayable=1;
+					};
+					id=262;
+					type="O_recon_medic_F";
+					atlOffset=63.957443;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5007.1719,-0.098316133,997.98114};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_5_0_4";
+						description="     Raven '4 - Demo Specialist";
+						isPlayable=1;
+					};
+					id=263;
+					type="O_recon_exp_F";
+					atlOffset=63.608849;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=259;
+			atlOffset=64.660484;
+		};
+		class Item111
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5010.4824,-0.081537798,1001.0759};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_7_0_1";
+						description="Weasel '1 - Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=265;
+					type="O_support_MG_F";
+					atlOffset=64.990318;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5010.4971,-0.086818039,1000.0471};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_7_0_2";
+						description="Weasel '2 - Asst. Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=266;
+					type="O_support_AMG_F";
+					atlOffset=64.641693;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5010.4805,-0.089395225,998.95477};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_7_0_3";
+						description="Weasel '3 - Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=267;
+					type="O_support_MG_F";
+					atlOffset=64.252548;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5010.4766,-0.08877942,997.92938};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="op_7_0_4";
+						description="Weasel '4 - Asst. Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=268;
+					type="O_support_AMG_F";
+					atlOffset=63.89135;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=264;
+			atlOffset=64.990318;
+		};
+		class Item112
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5013.543,-0.067953564,1001.0705};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="op_9_0_1";
+						description="Pelican '1 - Paramedic";
+						isPlayable=1;
+					};
+					id=270;
+					type="O_medic_F";
+					atlOffset=65.260757;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5013.5674,-0.070128515,1000.0295};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="op_9_0_2";
+						description="Pelican '2 - Paramedic";
+						isPlayable=1;
+					};
+					id=271;
+					type="O_medic_F";
+					atlOffset=64.90892;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=269;
+			atlOffset=65.260757;
+		};
+		class Item113
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5014.873,-0.059125312,1001.0486};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_10_1_1";
+						description="Moose 1'1 - Mortar Gunner";
+						isPlayable=1;
+					};
+					id=273;
+					type="O_soldier_exp_F";
+					atlOffset=65.361946;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5014.8984,-0.059744217,1000.0074};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_10_1_2";
+						description="Moose 1'2 - Mortar Asst.";
+						isPlayable=1;
+					};
+					id=274;
+					type="O_soldier_exp_F";
+					atlOffset=65.011528;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=272;
+			atlOffset=65.361946;
+		};
+		class Item114
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5018.8428,-0.026188266,1001.0075};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_11_1_1";
+						description="Lion 1'1 - Commander";
+						isPlayable=1;
+					};
+					id=276;
+					type="O_crew_F";
+					atlOffset=65.702454;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5018.8623,-0.022001751,999.94885};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""Gunner"",""*""], true];";
+						name="op_11_1_2";
+						description="     Lion 1'2 - Gunner";
+						isPlayable=1;
+					};
+					id=277;
+					type="O_crew_F";
+					atlOffset=65.34832;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5018.8711,-0.01608346,998.9704};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""Driver"",""*""], true];";
+						name="op_11_1_3";
+						description="     Lion 1'2 - Driver";
+						isPlayable=1;
+					};
+					id=278;
+					type="O_crew_F";
+					atlOffset=65.022285;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=275;
+			atlOffset=65.702454;
+		};
+		class Item115
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5020.4619,-0.012080027,1001.0652};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_12_1_1";
+						description="Tiger 1'1 - Commander";
+						isPlayable=1;
+					};
+					id=280;
+					type="O_crew_F";
+					atlOffset=65.870911;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5020.4346,-0.0063257627,999.96844};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""Gunner"",""*""], true];";
+						name="op_12_1_2";
+						description="     Tiger - Gunner";
+						isPlayable=1;
+					};
+					id=281;
+					type="O_crew_F";
+					atlOffset=65.50145;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5020.4541,0.0015488472,998.92938};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""Driver"",""*""], true];";
+						name="op_12_1_3";
+						description="     Tiger 1'3 - Driver";
+						isPlayable=1;
+					};
+					id=282;
+					type="O_crew_F";
+					atlOffset=65.1577;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5020.4941,0.0099537382,998.01288};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""Loader"",""*""], true];";
+						name="op_12_1_4";
+						description="     Tiger 1'4 - Loader";
+						isPlayable=1;
+					};
+					id=283;
+					type="O_crew_F";
+					atlOffset=64.857895;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=279;
+			atlOffset=65.870911;
+		};
+		class Item116
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5021.9609,0.00066328049,1001.0588};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_13_1_1";
+						description="Hawk 1'1 - Pilot";
+						isPlayable=1;
+					};
+					id=285;
+					type="O_helipilot_F";
+					atlOffset=66.008888;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5021.96,0.0088207964,999.91174};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_13_1_2";
+						description="Hawk 1'2 - Co-pilot";
+						isPlayable=1;
+					};
+					id=286;
+					type="O_helipilot_F";
+					atlOffset=65.626976;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5021.9697,0.017530179,998.92004};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_13_1_3";
+						description="     Hawk 1'3 - Crew";
+						isPlayable=1;
+					};
+					id=287;
+					type="O_helicrew_F";
+					atlOffset=65.299339;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5021.9766,0.026953354,997.94354};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_13_1_4";
+						description="     Hawk 1'4 - Crew";
+						isPlayable=1;
+					};
+					id=288;
+					type="O_helicrew_F";
+					atlOffset=64.977325;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5021.9844,0.036065858,997.0285};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_13_1_5";
+						description="     Hawk 1'5 - Crew";
+						isPlayable=1;
+					};
+					id=289;
+					type="O_helicrew_F";
+					atlOffset=64.675995;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=284;
+			atlOffset=66.008888;
+		};
+		class Item117
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5016.1699,-0.049129583,1001.1096};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_14_1_1";
+						description="Phoenix 1'1 - Pilot";
+						isPlayable=1;
+					};
+					id=291;
+					type="O_Pilot_F";
+					atlOffset=65.493698;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5017.5449,-0.037725523,1001.1194};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_14_1_2";
+						description="Phoenix 1'2 - Co-pilot";
+						isPlayable=1;
+					};
+					id=292;
+					type="O_Pilot_F";
+					atlOffset=65.621887;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=290;
+			atlOffset=65.493698;
+		};
+		class Item118
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5016.1699,-0.048354153,999.92987};
+					};
+					side="East";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="op_14_2_1";
+						description="Phoenix 2'1 - Pilot";
+						isPlayable=1;
+					};
+					id=294;
+					type="O_Pilot_F";
+					atlOffset=65.093391;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5017.5449,-0.035148013,999.9397};
+					};
+					side="East";
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="op_14_2_2";
+						description="Phoenix 2'2 - Co-pilot";
+						isPlayable=1;
+					};
+					id=295;
+					type="O_Pilot_F";
+					atlOffset=65.223366;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=293;
+			atlOffset=65.093391;
+		};
+		class Item119
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2958.8176,0.0063424958,1009.5295};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="COLONEL";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_0_0_1";
+						description="Papa Actual - Commander";
+						isPlayable=1;
+					};
+					id=297;
+					type="I_officer_F";
+					atlOffset=3.1637299;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2958.0698,0.0058382545,1008.6535};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="ind_0_0_2";
+						description="     Papa '2 - RTO";
+						isPlayable=1;
+					};
+					id=298;
+					type="I_Soldier_lite_F";
+					atlOffset=3.1738133;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2959.6108,0.0087542022,1008.6823};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="ind_0_0_3";
+						description="     Papa '3 - Medic";
+						isPlayable=1;
+					};
+					id=299;
+					type="I_medic_F";
+					atlOffset=3.1384737;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=296;
+			atlOffset=3.1637299;
+		};
+		class Item120
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2955.373,6.4712483e-005,1006.6262};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_1_0_1";
+						description="Anna Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=301;
+					type="I_Soldier_SL_F";
+					atlOffset=3.3032451;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2955.3748,-0.0016437382,1005.5529};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="ind_1_0_2";
+						description="     Anna '2 - RTO";
+						isPlayable=1;
+					};
+					id=302;
+					type="I_Soldier_lite_F";
+					atlOffset=3.347111;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2955.3662,-0.004190255,1004.2897};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="ind_1_0_3";
+						description="     Anna '3 - Medic";
+						isPlayable=1;
+					};
+					id=303;
+					type="I_medic_F";
+					atlOffset=3.395489;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=300;
+			atlOffset=3.3032451;
+		};
+		class Item121
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2954.0837,-0.0035886918,1005.4826};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_1_1_1";
+						description="     Anna 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=305;
+					type="I_Soldier_TL_F";
+					atlOffset=3.373575;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2954.0952,-0.0058113998,1004.3898};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_1_1_2";
+						description="          Anna 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=306;
+					type="I_soldier_F";
+					atlOffset=3.4094293;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2954.0967,-0.008558698,1003.1657};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_1_1_3";
+						description="          Anna 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=307;
+					type="I_Soldier_LAT_F";
+					atlOffset=3.4627659;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2954.0964,-0.011050376,1002.0827};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_1_1_4";
+						description="          Anna 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=308;
+					type="I_Soldier_AR_F";
+					atlOffset=3.5144284;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=304;
+			atlOffset=3.373575;
+		};
+		class Item122
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2956.6301,0.00070866803,1005.4641};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_1_2_1";
+						description="     Anna 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=310;
+					type="I_Soldier_TL_F";
+					atlOffset=3.3265669;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2956.6416,-0.0013653827,1004.342};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_1_2_2";
+						description="          Anna 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=311;
+					type="I_soldier_F";
+					atlOffset=3.371954;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2956.6235,-0.0038377331,1003.2639};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_1_2_3";
+						description="          Anna 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=312;
+					type="I_Soldier_LAT_F";
+					atlOffset=3.4387035;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2956.6331,-0.0067727705,1002.0837};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_1_2_4";
+						description="          Anna 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=313;
+					type="I_Soldier_AR_F";
+					atlOffset=3.4948516;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=309;
+			atlOffset=3.3265669;
+		};
+		class Item123
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2962.0591,0.018411791,1006.5776};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_2_0_1";
+						description="Beatrice Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=315;
+					type="I_Soldier_SL_F";
+					atlOffset=3.247642;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2962.0625,0.019493528,1005.4562};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="ind_2_0_2";
+						description="     Beatrice '2 - RTO";
+						isPlayable=1;
+					};
+					id=316;
+					type="I_Soldier_lite_F";
+					atlOffset=3.3003237;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2962.071,0.019601388,1004.2778};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="ind_2_0_3";
+						description="     Beatrice '3 - Medic";
+						isPlayable=1;
+					};
+					id=317;
+					type="I_medic_F";
+					atlOffset=3.3624473;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=314;
+			atlOffset=3.247642;
+		};
+		class Item124
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2960.7451,0.013968899,1005.4663};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_2_1_1";
+						description="     Beatrice 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=319;
+					type="I_Soldier_TL_F";
+					atlOffset=3.2712128;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2960.7581,0.01336994,1004.3644};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_2_1_2";
+						description="          Beatrice 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=320;
+					type="I_soldier_F";
+					atlOffset=3.3286917;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2960.7471,0.011717737,1003.2017};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_2_1_3";
+						description="          Beatrice 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=321;
+					type="I_Soldier_LAT_F";
+					atlOffset=3.4109657;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2960.7446,0.0093635144,1002.082};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_2_1_4";
+						description="          Beatrice 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=322;
+					type="I_Soldier_AR_F";
+					atlOffset=3.4953384;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=318;
+			atlOffset=3.2712128;
+		};
+		class Item125
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2963.3696,0.025409099,1005.3387};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_2_2_1";
+						description="     Beatrice 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=324;
+					type="I_Soldier_TL_F";
+					atlOffset=3.3435113;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2963.3374,0.02612409,1004.1909};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_2_2_2";
+						description="          Beatrice 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=325;
+					type="I_soldier_F";
+					atlOffset=3.3956909;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2963.3477,0.025969215,1003.1904};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_2_2_3";
+						description="          Beatrice 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=326;
+					type="I_Soldier_LAT_F";
+					atlOffset=3.471884;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2963.3645,0.024809042,1002.0862};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_2_2_4";
+						description="          Beatrice 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=327;
+					type="I_Soldier_AR_F";
+					atlOffset=3.5593536;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=323;
+			atlOffset=3.3435113;
+		};
+		class Item126
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2955.5696,-0.015457453,999.05945};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_3_0_1";
+						description="Clara Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=329;
+					type="I_Soldier_SL_F";
+					atlOffset=3.6039906;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2955.5701,-0.016500697,998.10718};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="ind_3_0_2";
+						description="     Clara '2 - RTO";
+						isPlayable=1;
+					};
+					id=330;
+					type="I_Soldier_lite_F";
+					atlOffset=3.6219914;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2955.6062,-0.01700058,996.93915};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="ind_3_0_3";
+						description="     Clara '3 - Medic";
+						isPlayable=1;
+					};
+					id=331;
+					type="I_medic_F";
+					atlOffset=3.6447618;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=328;
+			atlOffset=3.6039906;
+		};
+		class Item127
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2954.0156,-0.017193656,998.02167};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_3_1_1";
+						description="     Clara 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=333;
+					type="I_Soldier_TL_F";
+					atlOffset=3.6271489;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2954.0264,-0.017212898,996.88037};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_3_1_2";
+						description="          Clara 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=334;
+					type="I_soldier_F";
+					atlOffset=3.6725397;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2954.0139,-0.016356446,995.69775};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_3_1_3";
+						description="          Clara 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=335;
+					type="I_Soldier_LAT_F";
+					atlOffset=3.7509208;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2954.0156,-0.014915697,994.68561};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_3_1_4";
+						description="          Clara 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=336;
+					type="I_Soldier_AR_F";
+					atlOffset=3.8788412;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=332;
+			atlOffset=3.6271489;
+		};
+		class Item128
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2957.147,-0.014389817,997.99951};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_3_2_1";
+						description="     Clara 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=338;
+					type="I_Soldier_TL_F";
+					atlOffset=3.6853971;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2957.1572,-0.01533499,996.99084};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_3_2_2";
+						description="          Clara 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=339;
+					type="I_soldier_F";
+					atlOffset=3.7051632;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2957.1731,-0.01555356,995.88019};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_3_2_3";
+						description="          Clara 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=340;
+					type="I_Soldier_LAT_F";
+					atlOffset=3.7470934;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2957.2158,-0.014733613,994.68823};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_3_2_4";
+						description="          Clara 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=341;
+					type="I_Soldier_AR_F";
+					atlOffset=3.9069965;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=337;
+			atlOffset=3.6853971;
+		};
+		class Item129
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2961.9458,0.0065123551,998.85803};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_4_0_1";
+						description="Denise Actual - Squad Leader";
+						isPlayable=1;
+					};
+					id=343;
+					type="I_Soldier_SL_F";
+					atlOffset=3.8080847;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2961.9551,0.0034680278,997.93768};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""RTO"",""*""], true];";
+						name="ind_4_0_2";
+						description="     Denise '2 - RTO";
+						isPlayable=1;
+					};
+					id=344;
+					type="I_Soldier_lite_F";
+					atlOffset=3.9012966;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2961.9678,-2.1671876e-006,996.78864};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="ind_4_0_3";
+						description="     Denise '3 - Medic";
+						isPlayable=1;
+					};
+					id=345;
+					type="I_medic_F";
+					atlOffset=3.9733717;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=342;
+			atlOffset=3.8080847;
+		};
+		class Item130
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2960.4119,-0.0040969248,997.97717};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_4_1_1";
+						description="     Denise 1'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=347;
+					type="I_Soldier_TL_F";
+					atlOffset=3.786998;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2960.4229,-0.0066952007,996.83691};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_4_1_2";
+						description="          Denise 1'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=348;
+					type="I_soldier_F";
+					atlOffset=3.8592582;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2960.4165,-0.0085778879,995.68433};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_4_1_3";
+						description="          Denise 1'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=349;
+					type="I_Soldier_LAT_F";
+					atlOffset=3.9592898;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2960.385,-0.0094449399,994.69409};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_4_1_4";
+						description="          Denise 1'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=350;
+					type="I_Soldier_AR_F";
+					atlOffset=4.0876484;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=346;
+			atlOffset=3.786998;
+		};
+		class Item131
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2963.4231,0.0120635,997.88641};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_4_2_1";
+						description="     Denise 2'1 - Team Leader";
+						isPlayable=1;
+					};
+					id=352;
+					type="I_Soldier_TL_F";
+					atlOffset=3.9524887;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2963.4492,0.0084269308,996.89606};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_4_2_2";
+						description="          Denise 2'2 - Rifleman";
+						isPlayable=1;
+					};
+					id=353;
+					type="I_soldier_F";
+					atlOffset=4.0607896;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2963.4434,0.0045093149,995.78827};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_4_2_3";
+						description="          Denise 2'3 - Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=354;
+					type="I_Soldier_LAT_F";
+					atlOffset=4.1621375;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2963.4265,0.0012575613,994.69379};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_4_2_4";
+						description="          Denise 2'4 - Autorifleman";
+						isPlayable=1;
+					};
+					id=355;
+					type="I_Soldier_AR_F";
+					atlOffset=4.310976;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=351;
+			atlOffset=3.9524887;
+		};
+		class Item132
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2967.6592,0.052225348,1001.9353};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_6_0_1";
+						description="Sarah '1 - Sniper";
+						isPlayable=1;
+					};
+					id=357;
+					type="I_Sniper_F";
+					atlOffset=3.8195341;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2967.6602,0.052321903,1000.924};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_6_0_2";
+						description="     Sarah '2 - Spotter";
+						isPlayable=1;
+					};
+					id=358;
+					type="I_Spotter_F";
+					atlOffset=3.8652143;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2967.6443,0.050788112,999.92303};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_6_0_3";
+						description="Sarah '3 - Sniper";
+						isPlayable=1;
+					};
+					id=359;
+					type="I_Sniper_F";
+					atlOffset=3.9281967;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2967.6343,0.046523057,998.81708};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_6_0_4";
+						description="     Sarah '4 - Spotter";
+						isPlayable=1;
+					};
+					id=360;
+					type="I_Spotter_F";
+					atlOffset=4.0451608;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=356;
+			atlOffset=3.8195341;
+		};
+		class Item133
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2970.811,0.06603533,1001.9533};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_8_0_1";
+						description="Shirley '1 - Repair Specialist";
+						isPlayable=1;
+					};
+					id=362;
+					type="I_Soldier_repair_F";
+					atlOffset=4.1518097;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2970.8257,0.068856917,1000.9245};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_8_0_2";
+						description="Shirley '2 - Explosive Specialist";
+						isPlayable=1;
+					};
+					id=363;
+					type="I_Soldier_exp_F";
+					atlOffset=4.1270556;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2970.8091,0.069494396,999.83221};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""*"",""*""], true];";
+						name="ind_8_0_3";
+						description="Shirley '3 - Engineer";
+						isPlayable=1;
+					};
+					id=364;
+					type="I_engineer_F";
+					atlOffset=4.1712041;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=361;
+			atlOffset=4.1518097;
+		};
+		class Item134
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2965.8513,0.040940028,1001.9064};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""reconleader"",""*""], true];";
+						name="ind_5_0_1";
+						description="Rose '1 - Recon Team Leader";
+						isPlayable=1;
+					};
+					id=366;
+					type="I_Soldier_lite_F";
+					atlOffset=3.6796715;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2965.8708,0.03993782,1000.8708};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_5_0_2";
+						description="     Rose '2 - Recon Scout";
+						isPlayable=1;
+					};
+					id=367;
+					type="I_Soldier_lite_F";
+					atlOffset=3.762346;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2965.8276,0.03729767,999.88593};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""green"",""*"",""reconmedic"",""*""], true];";
+						name="ind_5_0_3";
+						description="     Rose '3 - Recon Paramedic";
+						isPlayable=1;
+					};
+					id=368;
+					type="I_Soldier_lite_F";
+					atlOffset=3.8415802;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2965.8533,0.033358306,998.85175};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""recondemo"",""*""], true];";
+						name="ind_5_0_4";
+						description="     Rose '4 - Demo Specialist";
+						isPlayable=1;
+					};
+					id=369;
+					type="I_Soldier_lite_F";
+					atlOffset=3.9524901;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=365;
+			atlOffset=3.6796715;
+		};
+		class Item135
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2969.1638,0.060072217,1001.9465};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_7_0_1";
+						description="Whitney '1 - Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=371;
+					type="I_support_MG_F";
+					atlOffset=3.9434874;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2969.1785,0.061440233,1000.9177};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_7_0_2";
+						description="Whitney '2 - Asst. Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=372;
+					type="I_support_AMG_F";
+					atlOffset=3.9922874;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2969.1619,0.060633797,999.82538};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_7_0_3";
+						description="Whitney '3 - Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=373;
+					type="I_support_MG_F";
+					atlOffset=4.0348549;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2969.1582,0.057128739,998.79999};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""red"",""*"",""*"",""*""], true];";
+						name="ind_7_0_4";
+						description="Whitney '4 - Asst. Gunner (HMG)";
+						isPlayable=1;
+					};
+					id=374;
+					type="I_support_AMG_F";
+					atlOffset=4.0645032;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=370;
+			atlOffset=3.9434874;
+		};
+		class Item136
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2972.2241,0.068287335,1001.9411};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="ind_9_0_1";
+						description="Penny '1 - Paramedic";
+						isPlayable=1;
+					};
+					id=376;
+					type="I_medic_F";
+					atlOffset=4.4028125;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2972.249,0.072446264,1000.9001};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""green"",""*"",""*"",""*""], true];";
+						name="ind_9_0_2";
+						description="Penny '2 - Paramedic";
+						isPlayable=1;
+					};
+					id=377;
+					type="I_medic_F";
+					atlOffset=4.3481216;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=375;
+			atlOffset=4.4028125;
+		};
+		class Item137
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2973.5547,0.067485064,1001.9191};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_10_1_1";
+						description="Mary 1'1 - Mortar Gunner";
+						isPlayable=1;
+					};
+					id=379;
+					type="I_Soldier_exp_F";
+					atlOffset=4.5936203;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2973.5796,0.072813347,1000.8781};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_10_1_2";
+						description="Mary 1'2 - Mortar Asst.";
+						isPlayable=1;
+					};
+					id=380;
+					type="I_Soldier_exp_F";
+					atlOffset=4.5401025;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=378;
+			atlOffset=4.5936203;
+		};
+		class Item138
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2977.5989,0.04320506,1001.9899};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_11_1_1";
+						description="Lucy 1'1 - Commander";
+						isPlayable=1;
+					};
+					id=382;
+					type="I_crew_F";
+					atlOffset=5.4147949;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2977.6179,0.051612094,1000.9313};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""Gunner"",""*""], true];";
+						name="ind_11_1_2";
+						description="     Lucy 1'2 - Gunner";
+						isPlayable=1;
+					};
+					id=383;
+					type="I_crew_F";
+					atlOffset=5.2546077;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2977.6274,0.058566567,999.95282};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""Driver"",""*""], true];";
+						name="ind_11_1_3";
+						description="     Lucy 1'2 - Driver";
+						isPlayable=1;
+					};
+					id=384;
+					type="I_crew_F";
+					atlOffset=5.1028194;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=381;
+			atlOffset=5.4147949;
+		};
+		class Item139
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2979.2178,0.02425183,1002.0475};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_12_1_1";
+						description="Tanya 1'1 - Commander";
+						isPlayable=1;
+					};
+					id=386;
+					type="I_crew_F";
+					atlOffset=5.7209105;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2979.1907,0.034043126,1000.9509};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""red"",""*"",""Gunner"",""*""], true];";
+						name="ind_12_1_2";
+						description="     Tanya - Gunner";
+						isPlayable=1;
+					};
+					id=387;
+					type="I_crew_F";
+					atlOffset=5.5251493;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2979.2097,0.041387539,999.9118};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""Driver"",""*""], true];";
+						name="ind_12_1_3";
+						description="     Tanya 1'3 - Driver";
+						isPlayable=1;
+					};
+					id=388;
+					type="I_crew_F";
+					atlOffset=5.3631697;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2979.2498,0.046471745,998.9953};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="SERGEANT";
+						init="this setVariable [""unitInit"",[""yellow"",""*"",""Loader"",""*""], true];";
+						name="ind_12_1_4";
+						description="     Tanya 1'4 - Loader";
+						isPlayable=1;
+					};
+					id=389;
+					type="I_crew_F";
+					atlOffset=5.2127819;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=385;
+			atlOffset=5.7209105;
+		};
+		class Item140
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2980.7168,0.0033407817,1002.0412};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_13_1_1";
+						description="Helen 1'1 - Pilot";
+						isPlayable=1;
+					};
+					id=391;
+					type="I_helipilot_F";
+					atlOffset=5.9520655;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2980.7161,0.012539267,1000.8942};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_13_1_2";
+						description="Helen 1'2 - Co-pilot";
+						isPlayable=1;
+					};
+					id=392;
+					type="I_helipilot_F";
+					atlOffset=5.7518311;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2980.7258,0.020127472,999.90253};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_13_1_3";
+						description="     Helen 1'3 - Crew";
+						isPlayable=1;
+					};
+					id=393;
+					type="I_helicrew_F";
+					atlOffset=5.5845566;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2980.7322,0.027034678,998.92596};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_13_1_4";
+						description="     Helen 1'4 - Crew";
+						isPlayable=1;
+					};
+					id=394;
+					type="I_helicrew_F";
+					atlOffset=5.4350605;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2980.7407,0.032575324,998.01093};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_13_1_5";
+						description="     Helen 1'5 - Crew";
+						isPlayable=1;
+					};
+					id=395;
+					type="I_helicrew_F";
+					atlOffset=5.2795706;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=390;
+			atlOffset=5.9520655;
+		};
+		class Item141
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2974.8513,0.063008606,1001.9802};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_14_1_1";
+						description="Petunia 1'1 - Pilot";
+						isPlayable=1;
+					};
+					id=397;
+					type="I_pilot_F";
+					atlOffset=4.8609242;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2976.2263,0.054956473,1001.9899};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_14_1_2";
+						description="Petunia 1'2 - Co-pilot";
+						isPlayable=1;
+					};
+					id=398;
+					type="I_pilot_F";
+					atlOffset=5.1794858;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=396;
+			atlOffset=4.8609242;
+		};
+		class Item142
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2974.8513,0.070386894,1000.8005};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""white"",""*"",""*"",""*""], true];";
+						name="ind_14_2_1";
+						description="Petunia 2'1 - Pilot";
+						isPlayable=1;
+					};
+					id=400;
+					type="I_pilot_F";
+					atlOffset=4.7174187;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2976.2263,0.063549779,1000.8103};
+					};
+					side="Independent";
+					class Attributes
+					{
+						skill=1;
+						rank="LIEUTENANT";
+						init="this setVariable [""unitInit"",[""blue"",""*"",""*"",""*""], true];";
+						name="ind_14_2_2";
+						description="Petunia 2'2 - Co-pilot";
+						isPlayable=1;
+					};
+					id=401;
+					type="I_pilot_F";
+					atlOffset=4.9963994;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=399;
+			atlOffset=4.7174187;
+		};
+		class Item143
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1762.9404,5.5014391,5685.8696};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=1;
+						init="this setVariable [""unitInit"",[""white"",""SPRG"",""reporter"",""SPRG Report""], true];";
+						name="civ_0_0_1";
+						description="SPRG Report - Reporter";
+						isPlayable=1;
+					};
+					id=403;
+					type="C_journalist_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1762.9504,5.5014391,5684.2622};
+					};
+					side="Civilian";
+					flags=4;
+					class Attributes
+					{
+						skill=1;
+						init="this setVariable [""unitInit"",[""white"",""SPRG"",""cameraman"",""SPRG Report""], true];";
+						name="civ_0_0_2";
+						description="SPRG Report - Cameraman";
+						isPlayable=1;
+					};
+					id=404;
+					type="C_journalist_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=402;
+		};
+		class Item144
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1755.9534,5.5014391,5687.582};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						name="nikos_npc";
+					};
+					id=406;
+					type="C_Nikos_aged";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=405;
+		};
+		class Item145
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1640.8733,5.5,5550.1899};
+				angles[]={-0,3.999614,0};
+			};
+			name="blu_extraction_1";
+			id=407;
+			type="LocationEvacPoint_F";
+		};
+		class Item146
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1969.8188,5.9397612,5550.957};
+				angles[]={0.0049914722,2.3720446,0.0024897563};
+			};
+			name="blu_extraction_2";
+			id=408;
+			type="LocationEvacPoint_F";
+			atlOffset=-4.7683716e-007;
+		};
+		class Item147
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1810.4258,5.5,5956.2476};
+				angles[]={-0,0.027577877,0};
+			};
+			name="blu_extraction_3";
+			id=409;
+			type="LocationEvacPoint_F";
+		};
+		class Item148
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2017.9282,6.0808725,5821.7568};
+				angles[]={0.042473838,1.1243372,6.2756844};
+			};
+			name="op_extraction_1";
+			id=410;
+			type="LocationEvacPoint_F";
+		};
+		class Item149
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1592.4814,0.15618324,5819.7939};
+				angles[]={0,5.3055062,0};
+			};
+			name="ind_extraction_1_1";
+			id=411;
+			type="LocationEvacPoint_F";
+			atlOffset=11.719926;
+		};
+		class Item150
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1834.4539,5.5014391,5921.3418};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=413;
+					type="B_soldier_LAT_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=412;
+		};
+		class Item151
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1813.3903,5.5014391,5504.2661};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=415;
+					type="B_soldier_AT_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=414;
+		};
+		class Item152
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1810.5023,5.5014391,5506.4141};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=419;
+					type="B_HeavyGunner_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=418;
+		};
+		class Item153
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1811.5703,5.5014391,5508.502};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=421;
+					type="B_medic_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=420;
+		};
+	};
+};
+class OutroLoose
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+};
+class OutroWin
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+};

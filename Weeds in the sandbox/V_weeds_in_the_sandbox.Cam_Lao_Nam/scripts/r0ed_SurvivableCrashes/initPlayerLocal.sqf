@@ -1,0 +1,1 @@
+[] execVM "scripts\r0ed_SurvivableCrashes\init.sqf";
